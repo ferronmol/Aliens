@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_saga.css">
+    <link rel="stylesheet" href="/css/style_footer.css">
+    <link rel="stylesheet" href="/css/style_nav.css">
+    <link rel="shortcut icon" href="/assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style_form.css">
+</head>
+<body>
+    <nav class="header_nav">         
+        <ul class="nav">
+          <img class="img_header" src="/assets/images/Aliens-logo.svg.png" alt="logo">
+          <li class="nav_item"><a class=nav_link  href= "../../index.html"  target="_blank">Inicio</a></li>
+          <li class="nav_item"><a class=nav_link  href="/assets/pages/saga.html" target="_blank">La Saga</a></li>
+          <li class="nav_item"><a class=nav_link  href="/assets/pages/reparto.html" target="_blank">Reparto</a></li>
+          <li class="nav_item"><a class=nav_link   href="/assets/pages/taquilla.html" target="_blank">Taquilla</a></li>
+          <li class="nav_item"><a class=nav_link  href="/assets/pages/Suscripción.html" target="_blank">Suscripción</a></li>
+        </ul>
+   </nav> 
+   <!-- creo el formulario dentro de un contenedor -->
+   <div class="container">
+    <h2 class="header">Formulario de Contacto</h2>
+<form  method="post" enctype="multipart/form-data">
+    <fieldset> <legend>Datos personales:</legend>
+    <br>
+    <label> NOMBRE:</label>
+    <input class="field" type="text" name="name" value="" placeholder="Nombre">
+    <label> PRIMER APELLIDO:</label>
+    <input class="field" type="text" name="" value="" placeholder="Apellido1">
+    <label>SEGUNDO APELLIDO:</label >
+    <input class="field" type="text" name="" value=""placeholder="apellido2">
+    <label>MAIL:</label>
+    <input class="field" type="email" name="mail" id="mail" placeholder="tu_mail@tumail.com">
+   <label> DIRECCIÓN:</label>
+    <input class="field" type="text" name="" value="" placeholder="C/ Mayor, 5">
+    <label>CÓDIGO POSTAL:</label>
+    <input class="cp" type="text" name="" value="" size="5" maxlength="5"placeholder="45600">
+    <br>
+    <label>POBLACIÓN:</label>
+    <input class="field" type="text" name="" value=""placeholder="Talavera de la reina">
+    <br>
+    </fieldset>
+    <br>
+    <fieldset> <legend>Sobre ti:</legend>
+        <br>
+    <label>EDAD:</label>
+    <input name="age" type="radio" value="-18">-18 Años
+    <input name="age" type="radio" value="18-40">18-40 Años
+    <input name="age" type="radio" value="+40">+ 40 Años
+    <br>
+    <label>GENEROS FAVORITO:</label>
+    <input type="checkbox" name="Terror" value="Terror">Terror
+    <input type="checkbox" name="Sci-Fi" value="Sci-Fi">Sci-Fi
+    <input type="checkbox" name="Comedia" value="Comedia">Comedia
+    <input type="checkbox" name="Belica" value="belica">Bélica
+    <input type="checkbox" name="Drama" value="Drama">Drama
+    <input type="checkbox" name="Accion" value="Accion">Acción
+    <br>
+    <label for="tu_favorita">Tu Pelicula ALIEN Favorita</label>
+    <select class="cp" id="tu_favorita" name="tu_favorita">
+        <option  value="" selected>- Selecciona</option>
+        <option value="Octavo pasajero">Octavo Pasajero</option>
+        <option value="El regreso">El Regreso</option>
+        <option value="Alien 3">Alien 3</option>
+        <option value="Resurreccion">Resurrection</option>
+        <option value="Prometheus">Prometheus</option>
+        <option value="Covenant">Covenant</option> 
+    </select>
+    <br>
+    <input type="checkbox" checked name="newletter" id="newletter">
+    <label>Deseo subcribirme al Newletter para estar informado de las novedades.</label>
+    <br>
+    <br>
+    <label>QUIERES MANDARME ALGO?</label>
+    <input type="file" name="adjunto">
+    <br>
+    <br>
+    </fieldset>
+    <br>
+    <br>
+    <input class="button_send" type="submit" name="Enviar" value="Enviar">
+    <input class="button_del" type="reset" name="limpiar" value="Borrar datos del Formulario">
+    <br>
+</form>
+</div> 
+</body>
+<footer>
+  <div class="foot_container">
+          <div class="tittle_container">
+           <img class="img_form" src="/assets/images/alien_black.png" alt="alien">
+           <h2 class="tittle_footer">¿Quieres saber sobre mi?</h2>
+           <img class="img_form" src="/assets/images/alien_black.png" alt="alien icon">
+          </div>
+          <div class="contact_container">
+              <div class="rrss_buttons" >
+                <ul>
+                  <li><a class="anchor" href="#"><img class="rsimg" src="/assets/images/instagram.png  "></a></li>
+                  <li><a class="anchor" href="http://www.linkedin.com/in/juan-ferron-paterna-76063869" target="_blank"><img class="rsimg" src="/assets/images/linkedin.png "></a></li>
+                  <li><a class="anchor" href="#"><img class="rsimg" src="/assets/images/facebook.png  "></a></li>                       
+                </ul>      
+              </div>  
+              <div class="small_container">
+                <h3 class="contact_footer">Solo tienes que llamarme!!</h3>
+                <p class="contact_footer">649123705</p>
+                <h3 class="contact_footer">¿Porque no me mandas un mail?</h3>
+                <a class="link_button" href="mailto:meryjuan2019@gmail.com"
+                target="_blank" rel="noopener noreferrer">Pincha aqui </a><img class="rsimg" src="/assets/images/mail2.png" alt="mail">
+              </div>
+              <div class="rrss_buttons">
+                  <ul>
+                    <li><a class="anchor" href="#"><img class="rsimg" src="/assets/images/whatsapp.png "></a></li>
+                    
+                    <li><a class="anchor" href="#"><img class="rsimg" src="/assets/images/snapchat.png "></a></li>
+                    <li><a class="anchor" href="#"><img class="rsimg" src="/assets/images/twitter.png"></a></li>
+          </div>
+      </div>
+</footer>
+</html>

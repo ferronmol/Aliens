@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: rgb(167, 184, 139);
+}
+
+.main_container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding:5em;
+}
+.wiki {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkslategrey;
+}
+.film_container {
+    width: 80%;
+    margin: 0 auto;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    align-items:center;
+    height: auto;
+ 
+  
+}
+
+.content {
+    height: 600px;
+    width: 1000px;
+    display: flex;
+}
+.header {
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 2em;
+  background-color: rgb(80, 76, 76);
+ width: 70%;
+ border-bottom: 4px solid black;
+ border-radius: 5px;
+   
+
+}
+.text {
+    margin-left: 2em;
+    align-items: center;
+    
+}
+.img_item {
+    padding: 5em 0;
+    height: 600px;
+    width: 300px;
+     
+}
+.img_item_photo {
+    height: 300px;
+}
+
+    
+
+   

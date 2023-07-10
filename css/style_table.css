@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+.ticket_sales {
+    border: 4px solid black;
+    text-align: center;
+    margin: 20px auto;
+    width: 1200px;
+    height: auto;
+    border-collapse: collapse;
+    
+    
+}
+
+.head {
+    padding: 20px;
+    font-size: large;
+    
+}
+.info_table {
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    
+
+}
+.ticket_sales td {
+    border: 1px solid black;
+
+}
+.contenedor {
+    border: 1px solid black; 
+    background-color: rgb(113, 95, 190);
+    width: 1300px;
+    margin:0 auto;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+th {
+    border: 1px solid black;
+}
+tfoot {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(90, 59, 148);
+    height: 40px;
+}
+.film{
+font-family: cursive;
+color: rgb(59, 5, 5);
+}
+.film:hover {
+    background-color: rgb(102, 59, 151);
+    
+}
+.datas:hover {
+    background-color:rgb(156, 156, 245);
+    font-weight: bold;
+}
+tr:hover {
+    background-color: rgb(102, 59, 151);
+}
+ 
